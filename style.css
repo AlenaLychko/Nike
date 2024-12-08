@@ -2,6 +2,7 @@
     --bg-color:#012d63;
    --white-color:#fff;
    --hover-color:#c7c7c7;
+   --btn-color:#8e32c6;
 }
 
 .container{
@@ -19,7 +20,6 @@
  font-weight: 400;
  font-size: 24px;
  background-color: var(--bg-color);
-
 }
 a{
     text-decoration: none;
@@ -28,13 +28,19 @@ ul{
     list-style: none;
 }
 .logo {
+    
 }
 .navigation {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .navigation-list{
-    justify-content: space-between;
+     display: flex;
+     gap: 30px;
+     margin-right: 73px;
+ margin-left: 152px;
+   
 }
 .header-wrap{
     display: flex;
@@ -57,21 +63,72 @@ ul{
 .second-item {
 }
 .main {
+
+    background-image: url(./images/sandali.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--bg-color);
 }
 
 .firt-setion {
+    color: var(--white-color);
+    margin-left: 170px;
+}
+.image{
+    margin-top: 94px;
+  
+
 }
 .cr {
+    font-family: "PT serif",sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 1.32px;
+    
+   
 }
 .title {
+    font-family: "Playfair disaplay",sans-serif;
+    font-weight: 400;
+    font-size:144px ;
+    line-height: 1.33px;
 }
-.re-title {
+.pre-title {
+    font-family: "Playfair disaplay",sans-serif;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 1.33px;
 }
 .text {
+    font-family: "Roboto",sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+   
+}
+.button{
+    padding: 20px 61px;
+    border-radius: 10px ;
+    border: none;
+    background-color: var(--btn-color);
+    color: var(--white-color);
+    margin-top: 41px;
+    margin-bottom: 183px;
 }
 
 
 
 .nav-list{
     
+}
+.second-section{
+    background: url(./images/gradient.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.option{
+    font-family: "Playifair Display",sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 1.33px;
+    color: var(--white-color);
 }
