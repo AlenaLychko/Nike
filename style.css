@@ -63,7 +63,7 @@ ul{
 .second-item {
 }
 .main {
-
+height: 858px;
     background-image: url(./images/sandali.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -121,14 +121,61 @@ ul{
     
 }
 .second-section{
-    background: url(./images/gradient.png);
+   
+    width: 1440px;
+    height: 606px;
+   background-color: var(--bg-color);
+    background:url(./images/gradient.png);
+    background-size:1440px;
     background-repeat: no-repeat;
     background-position: center;
+
 }
 .option{
+        display: flex;
     font-family: "Playifair Display",sans-serif;
     font-size: 36px;
     font-weight: 400;
     line-height: 1.33px;
     color: var(--white-color);
+    justify-content: center;
+
+
+}
+.option:nth-child(1)::before{
+    content: "";
+    display: block;
+    width: 240px;
+    height: 240px;
+    margin-top: 236px;
+    margin-bottom: 130px;
+    margin-right: 215px;
+   
+  background-image: url(./images/stars.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  
+}
+
+.option:nth-child(2)::after{
+    content: "";
+    display: block;
+    width: 240px;
+    height: 240px;
+   
+  background-image: url(./images/colors.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+.option:nth-child(3)::before{
+    content: "";
+    display: block;
+    width: 240px;
+    height: 240px;
+   
+  background-image: url(./images/bus.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  
 }
