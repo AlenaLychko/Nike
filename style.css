@@ -6,16 +6,15 @@
 }
 
 .container{
-    width: 1450px;
+    width: 1150px;
     padding: 0 15px;
     margin: 0 auto;
-    border: pink solid 3px;
+    outline: pink solid ;
 
 }
 
 .header{
-    padding-top:30px;
-    padding-bottom: 30px;
+    
  font-family: 'Roboto',sans-serif;
  font-weight: 400;
  font-size: 24px;
@@ -67,7 +66,7 @@ li{
 .second-item {
 }
 .main {
-height: 858px;
+
     background-image: url(./images/sandali.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -76,10 +75,10 @@ height: 858px;
 
 .firt-setion {
     color: var(--white-color);
-    margin-left: 170px;
+  
 }
 .image{
-    margin-top: 94px;
+ 
   
 
 }
@@ -125,8 +124,7 @@ height: 858px;
     
 }
 .second-section{
-  width: 1440px;
-    height: 606px;
+  
     padding-top: 130px;
    background-image: url(./images/gradient.png);
    background-repeat: no-repeat;
@@ -136,13 +134,12 @@ height: 858px;
  
 }
 .option-list{
-    width: 1110px;
-    height: 396px;
-    margin: 0 auto;
+   
+ 
        display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    border: solid 5px var(--btn-color);
+    border: 5px solid var(--btn-color);
     
 }
 
@@ -157,22 +154,20 @@ height: 858px;
    
 }
 .option-item::after{
-     content: "";
-    display: block;
-   width: 240px;
-   height: 240px;
-  background-image: url(./images/stars.png),url(./images/colors.png),url(./images/bus.png);
-  background-position: left,center,right;
-  background-size: 240px;
-  
+   
+    content: "";
+   background-image: url(./images/stars.png);
+   background-repeat: no-repeat;
+   background-position: left;
+   background-size: 240px;
+
 }
-.option:nth-child(2)::before{
-    background-image: url(./images/colors.png);
-   width: 240px;
-   height: 240px;
-  background-image: url(./images/colors.png);
-  background-position: center;
-  background-size: 240px;
-  
+.option-item:nth-child(2)::before{
+    content: "";
+   background-image: url(./images/colors.png);
+   background-repeat: no-repeat;
+   background-position:center;
+
 }
+
 
