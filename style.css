@@ -4,7 +4,10 @@
    --hover-color:#c7c7c7;
    --btn-color:#8e32c6;
 }
-
+h1,h2,h3,h4,h5,p,ul,li,button,image,form,input,label{
+    margin: 0;
+    padding: 0;
+}
 .container{
     width: 1150px;
     padding: 0 15px;
@@ -30,7 +33,13 @@ ul{
 li{
    list-style: none;
 }
+body{
+    background-color: var(--bg-color);
+    color: var(--white-color);
+  
+}
 .logo {
+  
     
 }
 .navigation {
@@ -41,8 +50,7 @@ li{
 .navigation-list{
      display: flex;
      gap: 30px;
-     margin-right: 73px;
- margin-left: 152px;
+     
    
 }
 .header-wrap{
@@ -65,19 +73,20 @@ li{
 }
 .second-item {
 }
-.main {
 
-    background-image: url(./images/sandali.png);
+
+.firt-section {
+    color: var(--white-color);
+     background-image: url(./images/sandali.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-color: var(--bg-color);
-}
-
-.firt-setion {
-    color: var(--white-color);
+   
   
 }
 .image{
+    margin-top: 94px;
+    
+
  
   
 
@@ -86,26 +95,30 @@ li{
     font-family: "PT serif",sans-serif;
     font-weight: 400;
     font-size: 48px;
-    line-height: 1.32px;
+    line-height: 1.32;
+    
     
    
 }
 .title {
-    font-family: "Playfair disaplay",sans-serif;
+    font-family: "Playfair display",sans-serif;
     font-weight: 400;
     font-size:144px ;
-    line-height: 1.33px;
+    line-height: 1.33;
+  
 }
 .pre-title {
-    font-family: "Playfair disaplay",sans-serif;
+    font-family: "Playfair display",sans-serif;
     font-weight: 400;
     font-size: 72px;
-    line-height: 1.33px;
+    line-height: 1.33;
+   
 }
 .text {
     font-family: "Roboto",sans-serif;
     font-weight: 400;
     font-size: 18px;
+     
    
 }
 .button{
@@ -115,7 +128,9 @@ li{
     background-color: var(--btn-color);
     color: var(--white-color);
     margin-top: 41px;
-    margin-bottom: 183px;
+    margin-bottom: 202px;
+  
+   
 }
 
 
@@ -125,49 +140,43 @@ li{
 }
 .second-section{
   
-    padding-top: 130px;
+   
    background-image: url(./images/gradient.png);
    background-repeat: no-repeat;
    background-position: center;
    background-color: var(--bg-color);
+   
     
  
 }
 .option-list{
    
- 
        display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     border: 5px solid var(--btn-color);
+  
     
 }
 
 .option-item{
     
-   font-family: "Playfair dasplay",sans-serif;
+   font-family: "Playfair display",sans-serif;
    font-weight: 400;
    font-size: 36px;
    color: var(--white-color);
-   line-height: 1.33px;
+   line-height: 1.33;
+   margin-bottom: 125px;
+   margin-left: 50px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+  
    
    
 }
-.option-item::after{
-   
-    content: "";
-   background-image: url(./images/stars.png);
-   background-repeat: no-repeat;
-   background-position: left;
-   background-size: 240px;
+.opyion-item:last-child{
+    
+}
 
-}
-.option-item:nth-child(2)::before{
-    content: "";
-   background-image: url(./images/colors.png);
-   background-repeat: no-repeat;
-   background-position:center;
-
-}
 
 
