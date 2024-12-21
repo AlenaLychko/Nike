@@ -93,6 +93,7 @@ body{
      background-image: url(./images/sandali.png);
     background-repeat: no-repeat;
     background-position: center;
+    
    
   
 }
@@ -212,21 +213,23 @@ background-position: center;
 .rewiews-list{
       display: flex;
  justify-content: center;
+ 
 }
 .coments-list{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding-bottom: 115px;
 }
 .coments{
     margin-right: 96px;
     margin-left: 18px;
 }
-.flower{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
-
+.text{
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.17;
 }
 
 
