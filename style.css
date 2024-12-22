@@ -4,7 +4,7 @@
    --hover-color:#c7c7c7;
    --btn-color:#8e32c6;
 }
-h1,h2,h3,h4,h5,p,ul,li,button,image,form,input,label{
+h1,h2,h3,h4,h5,p,ul,li,button,image,form,input,label,ul,li{
     margin: 0;
     padding: 0;
 }
@@ -15,6 +15,7 @@ h1,h2,h3,h4,h5,p,ul,li,button,image,form,input,label{
     outline: pink solid ;
 
 }
+
 
 .header{
     
@@ -215,15 +216,32 @@ background-position: center;
  justify-content: center;
  
 }
-.coments-list{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding-bottom: 115px;
+.coments-list {
+  display: flex;
+  justify-content: space-between;
 }
-.coments{
-    margin-right: 96px;
-    margin-left: 18px;
+
+.coments {
+    position: relative;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+
+
+.image-container .text {
+    font-family: "Roboto";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+   
 }
 
 
