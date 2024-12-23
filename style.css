@@ -3,6 +3,8 @@
    --white-color:#fff;
    --hover-color:#c7c7c7;
    --btn-color:#8e32c6;
+   --footer-color:#021635;
+   --footer-btn:#8d8d8d;
 }
 h1,h2,h3,h4,h5,p,ul,li,button,image,form,input,label,ul,li{
     margin: 0;
@@ -196,7 +198,7 @@ background-position: center;
 }
 .rewiews{
     font-family: "Playfair display";
-   justify-content: center;
+text-align: center;
     font-size: 48px;
    font-weight: 400;
   
@@ -228,7 +230,126 @@ background-position: center;
     display: inline-block;
 }
 
+.fourth-section {
+    background-image: url(./images/bgfourth.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--bg-color);
+}
 
+.order {
+    font-family: "Playfair Display";
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 1.33;
+   text-align: center;
+    padding-top: 21px;
+    padding-bottom: 31px;
+}
+.form {
+}
+.form-wrap {
+    display: flex;
+     justify-content: center;
+}
+.form-inputs {
+     display: flex;
+    flex-direction: column;
+    
+}
+.form-inp {
+
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 24px;
+    border-radius: 50px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.17;
+    
+ 
+ 
+}
+.form-inp:first-child{
+   padding-top:12px;
+ padding-bottom: 13px;
+ padding-left: 25px;
+ padding-right: 203px; 
+ font-family: "Roboto";
+  font-weight: 400;
+    font-size: 28px;
+    line-height: 1.17;
+    margin-bottom: 19px;
+
+}
+.form-inp:nth-child(2){
+    margin-bottom: 19px;
+}
+.form-inp:nth-child(3){
+    margin-bottom: 19px;
+}
+.form-inp:nth-child(4){
+    margin-bottom: 19px;
+}
+.form-inp:nth-child(5){
+    margin-bottom: 19px;
+}
+.confim {
+    background-color: var(--white-color);
+    color: var(--footer-btn);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.form-btn{
+
+    padding: 20px 49px;
+    color: var(--white-color);
+    background-color: var(--btn-color);
+ border-radius: 10px ;
+    border: none;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.17;
+
+}
+.footer {
+  
+    background-color: var(--footer-color);
+}
+.help-list {
+    padding-top: 45px;
+}
+.help-item {
+}
+.help {
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.17;
+    color:var(--white-color)
+}
+.support-list {
+}
+.support-item {
+}
+.support-link{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    font-family: "Roboto";
+    font-size: 24px;
+    color: var(--white-color);
+    text-decoration: underline;
+ 
+}
+.rigths-list {
+}
+.rigths-item {
+}
+.rigths {
+}
 
 
 
