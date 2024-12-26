@@ -206,6 +206,7 @@ text-align: center;
  justify-content: center;
  
 }
+
 .coments-list {
   display: flex;
   justify-content: space-between;
@@ -219,13 +220,16 @@ text-align: center;
 }
 
 .coments:first-child{
+    border-radius: 15px;
     background-color: #7B54B2;
 
 }
 .coments:nth-child(2){
+    border-radius: 15px;
 background-color: #9159B1;
 }
 .coments:nth-child(3){
+    border-radius: 15px;
     background-color:#B95A4C ;
 }
 .coment-text{
