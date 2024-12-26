@@ -89,6 +89,7 @@ body{
 
 
 .firt-section {
+
     color: var(--white-color);
      background-image: url(./images/sandali.png);
     background-repeat: no-repeat;
@@ -97,14 +98,8 @@ body{
    
   
 }
-.image{
-    margin-top: 94px;
-    
 
- 
-  
 
-}
 .cr {
     font-family: "PT serif",sans-serif;
     font-weight: 400;
@@ -219,15 +214,52 @@ text-align: center;
 .coments {
    text-align: left;
    padding: 50px 14px 49px;
+   display: inline-block;
 
 }
+
 .coments:first-child{
-    background-color: linear-gradient(136.55deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
+    background-color: #7B54B2;
 
 }
-.image-container {
-    position: relative;
-    display: inline-block;
+.coments:nth-child(2){
+background-color: #9159B1;
+}
+.coments:nth-child(3){
+    background-color:#B95A4C ;
+}
+.coment-text{
+    font-family: "Roboto";
+font-size: 24px;
+font-weight: 400;
+line-height: 1.16;
+color: var(--white-color);
+
+}
+.date{
+    font-family: "Roboto";
+font-size: 14px;
+font-weight: 400;
+line-height: 1.17;
+color: var(--footer-btn);
+
+
+}
+.name{
+    font-family: "Roboto";
+font-size: 14px;
+font-weight: 400;
+line-height: 1.17;
+color: var(--white-color);
+
+}
+.from{
+    font-family: "Roboto";
+font-size: 12px;
+font-weight: 400;
+line-height: 1.17;
+color: var(--footer-btn);
+
 }
 
 .fourth-section {
@@ -246,8 +278,7 @@ text-align: center;
     padding-top: 21px;
     padding-bottom: 31px;
 }
-.form {
-}
+
 .form-wrap {
     display: flex;
      justify-content: center;
@@ -328,8 +359,7 @@ margin: 0 auto;
       flex-direction: column; 
      
 }
-.help-item {
-}
+
 .help {
     font-family: "Roboto";
     font-size: 24px;
@@ -363,10 +393,11 @@ margin: 0 auto;
 }
 .rigths-item {
 }
-.rigths {
-}
+
 .footer-logo-list {
     display: flex;
+     flex-direction: column; 
+  
     
 }
 .footer-logo-item {
