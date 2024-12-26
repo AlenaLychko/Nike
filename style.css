@@ -25,6 +25,7 @@ h1,h2,h3,h4,h5,p,ul,li,button,image,form,input,label,ul,li{
  font-weight: 400;
  font-size: 24px;
  background-color: var(--bg-color);
+
 }
 
 a{
@@ -98,7 +99,6 @@ body{
    
   
 }
-
 
 .cr {
     font-family: "PT serif",sans-serif;
@@ -372,6 +372,9 @@ margin: 0 auto;
     line-height: 1.17;
  
 
+}
+.submit{
+    padding-bottom: 37px;
 }
 .footer {
   
