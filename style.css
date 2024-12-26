@@ -114,6 +114,7 @@ body{
     font-weight: 400;
     font-size:144px ;
     line-height: 1.33;
+   
   
 }
 .pre-title {
@@ -318,7 +319,7 @@ color: var(--footer-btn);
     padding-top: 11px;
     padding-bottom: 11px;
     padding-left: 24px;
-    border-radius: 50px;
+    border-radius: 55px;
     font-family: "Roboto";
     font-weight: 400;
     font-size: 24px;
