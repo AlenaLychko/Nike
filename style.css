@@ -5,6 +5,7 @@
    --btn-color:#8e32c6;
    --footer-color:#021635;
    --footer-btn:#8d8d8d;
+   --border-color:#9B9B9B;
 }
 h1,h2,h3,h4,h5,p,ul,li,button,image,form,input,label,ul,li{
     margin: 0;
@@ -186,6 +187,7 @@ text-align: center;
 .option-item:last-child{
   margin-right: 50px;
 }
+
 .third-section{
     border: 2px var(--white-color) ;
     background-image: url(./images/bgthird.png);
@@ -251,6 +253,9 @@ color: var(--white-color);
 
 
 
+}
+.border-between{
+    border: 2px solid var(--white-color);
 }
 .date{
     font-family: "Roboto";
@@ -383,7 +388,6 @@ margin: 0 auto;
 }
 .help-list {
     display: flex;
-    gap: 30px;
     padding-top: 45px;
       flex-direction: column; 
      
@@ -396,27 +400,33 @@ margin: 0 auto;
     line-height: 1.17;
     color:var(--white-color)
 }
+.help-item{
+    margin-bottom: 10px;
+}
 .support-list {
     display: flex;
-      gap: 30px;
   flex-direction: column; 
-
+align-items: flex-end;
      
   
   
 }
 .support-item {
-   margin-left: 591px;
+    margin-bottom: 10px;
 }
 
 .support-link{
     display: flex;
-  
     font-family: "Roboto";
     font-size: 24px;
     color: var(--white-color);
     text-decoration: underline;
  
+}
+.border{
+margin-bottom: 24px;
+margin-top: 20px;
+    border:1px solid var(--border-color)  ;
 }
 .rigths-list {
 }
