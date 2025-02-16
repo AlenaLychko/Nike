@@ -27,6 +27,7 @@ h1,h2,h3,h4,h5,p,ul,li,button,image,form,input,label,ul,li{
 
 a{
     text-decoration: none;
+    transition: color 0.2s ease;
 }
 ul{
     list-style: none;
@@ -67,6 +68,18 @@ body{
 }
 .nav-link {
     color: var(--hover-color);
+    text-decoration: uppercase;
+position: relative;
+}
+.nav-link:hover::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+    margin-top: 10px;
+    position: absolute;
+    border-radius: 4px;
 }
 .btn{
     background-color: var(--bg-color);
