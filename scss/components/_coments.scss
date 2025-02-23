@@ -1,0 +1,50 @@
+.coments:nth-child(1) {
+    background: linear-gradient(#00E5E6, #00A8F7, #9A76F9, #CC5EC2);
+    box-shadow: 0px 14px 0px -5px #7B54B2, 0px 30px 0px -13px #533978;
+}
+
+.coments:nth-child(2) {
+    background: linear-gradient(#FF68B4, #FF45E1, #CE3AFF, #8961FF);
+    box-shadow: 0px 14px 0px -5px #9159B1, 0px 30px 0px -13px #61337C;
+}
+
+.coments:nth-child(3) {
+    background: linear-gradient(#FFE128, #FF9B5C, #FF8381, #FF5489);
+    box-shadow: 0px 14px 0px -5px #B95A4C, 0px 30px 0px -13px #732F26;
+}
+
+.coments-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.coments {
+   text-align: left;
+   padding: 50px 14px 49px;
+   display: inline-block;
+   margin-bottom: 115px
+}
+
+.coments:first-child{
+     margin-left: 93px;
+    width: 255px;
+    height: 292px;
+    border-radius: 15px;
+}
+.coments:nth-child(2){
+      width: 255px;
+    height: 292px;
+    border-radius: 15px;
+}
+.coments:nth-child(3){
+    width: 255px;
+    height: 292px;
+    border-radius: 15px;
+}
+.coment-text{
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.16;
+    color: var(--white-color);
+}

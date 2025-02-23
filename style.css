@@ -217,7 +217,12 @@ margin: 0 auto;
     line-height: 0.75;
     padding-top: 25px;
     padding-bottom: 22px;
+}.rewiews-list{
+    display: flex;
+    justify-content: center;
+ 
 }
+
 .coments:nth-child(1) {
     background: linear-gradient(#00E5E6, #00A8F7, #9A76F9, #CC5EC2);
     box-shadow: 0px 14px 0px -5px #7B54B2, 0px 30px 0px -13px #533978;
@@ -231,11 +236,6 @@ margin: 0 auto;
 .coments:nth-child(3) {
     background: linear-gradient(#FFE128, #FF9B5C, #FF8381, #FF5489);
     box-shadow: 0px 14px 0px -5px #B95A4C, 0px 30px 0px -13px #732F26;
-}
-.rewiews-list{
-    display: flex;
-    justify-content: center;
- 
 }
 
 .coments-list {
