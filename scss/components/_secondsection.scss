@@ -1,0 +1,59 @@
+.second-section{
+   background-image: url(./images/gradient.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-color: var(--bg-color);
+   padding-bottom: 105px;
+   padding-top: 105px;
+}
+.option-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 5px solid var(--btn-color);
+}
+
+
+.option{
+    font-family: "Playfair Display";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 1.33;
+    width: 160px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.option-item:last-child{
+  margin-right: 50px;
+}
+.comfortable{
+    padding-top: 45px;
+    padding-bottom: 82px;
+    background-color: #012d63;
+   background-image: url(./images/comfortable.png);
+    background-repeat: no-repeat;
+     background-position: center;
+}
+
+.image-wrap{
+    position: relative;
+    
+}
+.comfortable-text {
+    position: absolute; 
+     left: 890px;
+    font-family: "Playfair Display";
+font-size: 28px;
+font-weight: 400;
+line-height: 1.33;
+}
+.comfortable-img{
+margin: 0 auto;
+}
+
+.comfortable-line{
+    position: absolute;
+    top: 54px;
+    left: 615px;
+}

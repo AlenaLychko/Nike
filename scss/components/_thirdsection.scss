@@ -1,3 +1,23 @@
+.third-section{
+    border: 2px var(--white-color) ;
+    background-image: url(./images/bgthird.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.rewiews{
+    font-family: "Playfair display";
+    text-align: center;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 0.75;
+    padding-top: 25px;
+    padding-bottom: 22px;
+}.rewiews-list{
+    display: flex;
+    justify-content: center;
+ 
+}
+
 .coments:nth-child(1) {
     background: linear-gradient(#00E5E6, #00A8F7, #9A76F9, #CC5EC2);
     box-shadow: 0px 14px 0px -5px #7B54B2, 0px 30px 0px -13px #533978;
@@ -47,4 +67,38 @@
     font-weight: 400;
     line-height: 1.16;
     color: var(--white-color);
+}
+.border-between{
+    border: 2px solid var(--white-color);
+}
+.date{
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.17;
+    color: var(--footer-btn);
+    padding-bottom: 47px;
+}
+.name{
+    display: flex;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.17;
+    color: var(--white-color);
+}
+.from{
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.17;
+    color: var(--footer-btn);
+}
+.people-image{
+    display: flex;
+    align-items: center;
+    margin-left: 18px;
+}
+.people{
+    margin-right: 5px;
 }
