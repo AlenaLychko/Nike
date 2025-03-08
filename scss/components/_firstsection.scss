@@ -1,5 +1,5 @@
 .firt-section {
-  color: var(--white-color);
+  color:$white-color;
   background-image: url(/images/sandali.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -32,8 +32,8 @@
   padding: 20px 61px;
   border-radius: 10px;
   border: none;
-  background-color: var(--btn-color);
-  color: var(--white-color);
+  background-color:$btn-color;
+  color: $white-color;
   margin-top: 41px;
   margin-bottom: 202px;
   font-size: 24px;

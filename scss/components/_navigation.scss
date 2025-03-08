@@ -15,10 +15,10 @@
 
 .nav-link:hover,
 .nav-link:focus{
-    color: var(--white-color);
+    color: $white-color;
 }
 .nav-link {
-    color: var(--hover-color);
+    color: $hover-color;
     text-decoration: uppercase;
 position: relative;
 }
@@ -33,13 +33,13 @@ position: relative;
     border-radius: 4px;
 }
 .btn{
-    background-color: var(--bg-color);
-    color: var(--hover-color);
+    background-color:$bg-color;
+    color: $hover-color;
     border: none;
 }
 .btn:hover,
 .btn:focus{
-    color: var(--white-color);
+    color:$white-color;
 }
 .nav-list {
     display: flex;

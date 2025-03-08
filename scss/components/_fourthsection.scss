@@ -2,7 +2,7 @@
     background-image: url(./images/bgfourth.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-color: var(--bg-color);
+    background-color: $bg-color;
 }
 
 .order {
@@ -59,8 +59,8 @@
     margin-bottom: 19px;
 }
 .confim {
-    background-color: var(--white-color);
-    color: var(--footer-btn);
+    background-color: $white-color;
+    color: $footer-btn;
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -68,8 +68,8 @@
     display: flex;
     margin: 0 auto;
     padding: 20px 49px;
-    color: var(--white-color);
-    background-color: var(--btn-color);
+    color: $white-color;
+    background-color:$btn-color;
     border-radius: 16px ;
     border: none;
     font-family: "Roboto";

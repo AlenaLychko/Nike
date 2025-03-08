@@ -1,5 +1,5 @@
 .third-section{
-    border: 2px var(--white-color) ;
+    border: 2px $white-color;
     background-image: url(./images/bgthird.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -66,17 +66,17 @@
     font-size: 24px;
     font-weight: 400;
     line-height: 1.16;
-    color: var(--white-color);
+    color: $white-color;
 }
 .border-between{
-    border: 2px solid var(--white-color);
+    border: 2px solid $white-color;
 }
 .date{
     font-family: "Roboto";
     font-size: 14px;
     font-weight: 400;
     line-height: 1.17;
-    color: var(--footer-btn);
+    color: $footer-btn;
     padding-bottom: 47px;
 }
 .name{
@@ -85,14 +85,14 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 1.17;
-    color: var(--white-color);
+    color: $white-color;
 }
 .from{
     font-family: "Roboto";
     font-size: 12px;
     font-weight: 400;
     line-height: 1.17;
-    color: var(--footer-btn);
+    color:$footer-btn;
 }
 .people-image{
     display: flex;
